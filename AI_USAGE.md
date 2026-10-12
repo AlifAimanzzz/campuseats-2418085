@@ -1,16 +1,13 @@
-# AI usage log
+# Week 1 reflection
 
-Using AI never costs marks; a vague or missing log does.
-Add a new section every week, before you tag. Did not use AI? Write "None" under Tool(s).
+1. What is the difference between building a UI imperatively (plain DOM code) and declaratively (React)?
+   = Imperative involves writing step-by-step instruction on how to update the UI, while declarative involves describing what the UI should look like based on the current data.
 
-## Week 1
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+2. Why must a component name start with a capital letter?
+   = To distinguish custom react components from standard HTML tags.
 
-## Week 2
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+3. What does a fragment <>...</> do, and why not just use a <div>?
+   = A fragmant <>...</> allows to group multiple sibling elements without adding extra node to actual HTML DOM. Using <div> adds an unnecessary wrapper element that can clutter the markup and break the CSS layout.
+
+4. Name one benefit of splitting the UI into small components.
+   = The benefit of breaking UI into small components is that it can be use across multiple different pages without rewriting of duplicating the code.
