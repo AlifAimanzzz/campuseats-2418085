@@ -1,0 +1,273 @@
+[
+  {
+    "id": "2418085-serambi-barakah-restaurant",
+    "name": "Serambi Barakah Restaurant",
+    "location": "Mahallah Faruq, Block F",
+    "openHours": "8:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2418085-m1",
+        "name": "Nasi Lemak Ayam",
+        "description": "The combination of Fried Chicken, Oriental Egg, Homemade Sambal and Aromatic Pandan Steamed Rice infused with 8 types of spices.",
+        "price": 6,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2418085-m2",
+        "name": "Kampung Fried Rice",
+        "description": "A delicious Serambi Barakah signature dish! Paired with fresh prawns and oriental egg.",
+        "price": 5,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2418085-m3",
+        "name": "Prawn Mee",
+        "description": "Aromatic flavourful prawn broth. Freshly prepared prawn & chicken bones simmered gently for 5 hours.",
+        "price": 5.5,
+        "category": "Noodle",
+        "available": true
+      },
+      {
+        "id": "2418085-m4",
+        "name": "Soup Pan Mee",
+        "description": "High quality anchovies and chicken bones are slow-simmered together for hours, creating milky-white broth that is rich in aroma.",
+        "price": 6.5,
+        "category": "Noodle",
+        "available": false
+      },
+      {
+        "id": "2418085-m5",
+        "name": "Mee Goreng Mamak",
+        "description": "A popular hometown delicacy features a variety of ingredients such as egg slices, fish cakes, tofu puffs, and vegetables stir fried with noodles.",
+        "price": 5,
+        "category": "Noodle",
+        "available": true
+      },
+      {
+        "id": "2418085-m6",
+        "name": "White Coffee",
+        "description": "Tastes great when crafted with love. A cup of white coffee undergoes a unique low-temperature roasting method with an extended duration, resulting in a superior flavour profile.",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418085-m7",
+        "name": "Milo Dinosaur",
+        "description": "A rich, icy Milo drink generously topped with a thick layer of Milo powder. A favourite among the both kids and adults.",
+        "price": 4,
+        "category": "Drinks",
+        "available": false
+      },
+      {
+        "id": "2418085-m8",
+        "name": "Iced Lemon Tea",
+        "description": "Refreshing iced lemon tea topped with specially made lemon tea ice cubes that float on top.",
+        "price": 2,
+        "category": "Drinks",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "2411391-vendor-uthman",
+    "name": "Kafe Mahallah Uthman",
+    "location": "Mahallah Uthman, IIUM",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2411391-uthman-1",
+        "name": "Roti Canai",
+        "description": "Crispy, flaky flatbread served with dhal curry",
+        "price": 2.0,
+        "available": true,
+        "category": "Bread"
+      },
+      {
+        "id": "2411391-uthman-2",
+        "name": "Naan Garlic",
+        "description": "Soft naan bread topped with garlic butter",
+        "price": 4.5,
+        "available": true,
+        "category": "Bread"
+      },
+      {
+        "id": "2411391-uthman-3",
+        "name": "Chicken Tandoori",
+        "description": "Marinated chicken roasted with traditional tandoori spices",
+        "price": 10.0,
+        "available": true,
+        "category": "Chicken"
+      },
+      {
+        "id": "2411391-uthman-4",
+        "name": "Roti Telur",
+        "description": "Flaky flatbread filled with egg, served with curry",
+        "price": 3.5,
+        "available": true,
+        "category": "Bread"
+      },
+      {
+        "id": "2411391-uthman-5",
+        "name": "Naan Cheese",
+        "description": "Soft naan filled with melted cheese",
+        "price": 6.0,
+        "available": true,
+        "category": "Bread"
+      },
+      {
+        "id": "2411391-uthman-6",
+        "name": "Maggie Goreng",
+        "description": "Fried instant noodles with egg and vegetables",
+        "price": 5.5,
+        "available": true,
+        "category": "Noodles"
+      },
+      {
+        "id": "2411391-uthman-7",
+        "name": "Tandoori Chicken Set",
+        "description": "Tandoori chicken served with naan and mint sauce",
+        "price": 13.0,
+        "available": true,
+        "category": "Chicken"
+      },
+      {
+        "id": "2411391-uthman-8",
+        "name": "Teh Tarik",
+        "description": "Classic Malaysian pulled milk tea",
+        "price": 2.5,
+        "available": true,
+        "category": "Drinks"
+      }
+    ]
+  },
+  {
+    "id": "2415975-selera-melayu",
+    "name": "Selera Melayu",
+    "location": "Mahallah Zubair Al-Awwam",
+    "openHours": "8.00 am - 10.30 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2415975-NG01",
+        "name": "Nasi Goreng Pattaya",
+        "description": "Fried rice wrapped in a fluffy omelette, served with savoury sauce.",
+        "price": 5.5,
+        "category": "Foods",
+        "available": true
+      },
+
+      {
+        "id": "2415975-NG02",
+        "name": "Nasi Goreng Ayam",
+        "description": "A fried rice served with delicious fried chicken.",
+        "price": 5.0,
+        "category": "Foods",
+        "available": true
+      },
+
+      {
+        "id": "2415975-NG03",
+        "name": "Nasi Goreng USA",
+        "description": "A fried rice served with an egg and beef with spicy and savoury sauce.",
+        "price": 7.0,
+        "category": "Foods",
+        "available": true
+      },
+
+      {
+        "id": "2415975-MG01",
+        "name": "Char Kuey Teow",
+        "description": "Wok-fried flat rice noodles tossed with savoury sauce, egg, and crunchy bean sprouts.",
+        "price": 6.0,
+        "category": "Foods",
+        "available": true
+      },
+
+      {
+        "id": "2415975-MG02",
+        "name": "Mee Goreng Mamak",
+        "description": "Wok-fried mee with a savoury sauce, egg, and meat.",
+        "price": 5.5,
+        "category": "Foods",
+        "available": true
+      },
+
+      {
+        "id": "2415975-BV01",
+        "name": "Teh O Ais",
+        "description": "A regular iced tea.",
+        "price": 1.5,
+        "category": "Drinks",
+        "available": true
+      },
+
+      {
+        "id": "2415975-BV02",
+        "name": "Teh Ais",
+        "description": "Ice tea with condensed milk.",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+
+      {
+        "id": "2415975-BV03",
+        "name": "Green Tea",
+        "description": "A refreshing green tea with a light, soothing flavour.",
+        "price": 3.0,
+        "category": "Drinks",
+        "available": true
+      },
+
+      {
+        "id": "2415975-AO01",
+        "name": "Telur Mata",
+        "description": "A freshly fried egg with a golden yolk.",
+        "price": 1.5,
+        "category": "Add-On",
+        "available": true
+      },
+
+      {
+        "id": "2415975-AO02",
+        "name": "Ayam Goreng",
+        "description": "Crispy fried chicken.",
+        "price": 4.0,
+        "category": "Add-On",
+        "available": true
+      },
+
+      {
+        "id": "2415975-AO03",
+        "name": "Nuggets (3 pieces)",
+        "description": "Crispy chicken nuggets.",
+        "price": 1.0,
+        "category": "Add-On",
+        "available": true
+      },
+
+      {
+        "id": "2415975-AO04",
+        "name": "Sausages (2 pieces)",
+        "description": "Juicy sausages.",
+        "price": 1.0,
+        "category": "Add-On",
+        "available": true
+      },
+
+      {
+        "id": "2415975-AO05",
+        "name": "Potate Wedges (3 pieces)",
+        "description": "Crispy potato wedges.",
+        "price": 2.0,
+        "category": "Add-On",
+        "available": true
+      }
+    ]
+  }
+]
