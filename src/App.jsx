@@ -11,7 +11,6 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [reloadKey, setReloadKey] = useState(0);
-
   const [selectedVendorId, setSelectedVendorId] = useState(null);
   const [view, setView] = useState("menu");
   const [cart, setCart] = useState([]);
@@ -33,7 +32,7 @@ function App() {
         if (!controller.signal.aborted) setLoading(false);
       });
 
-    return () => controller.abort(); // cleanup
+    return () => controller.abort();
   }, [reloadKey]);
 
   function handleRetry() {
@@ -41,12 +40,9 @@ function App() {
     setLoading(true);
     setReloadKey((k) => k + 1);
   }
-
-  // Select the first vendor once data arrives (derived, no extra effect needed)
   const selectedVendor =
     vendors.find((v) => v.id === selectedVendorId) ?? vendors[0];
 
-  // ---- cart logic (lifted to App) ----
   function handleAddToCart(item) {
     setCart((prev) => {
       const exists = prev.some((line) => line.item.id === item.id);
@@ -83,11 +79,8 @@ function App() {
     setCart([]);
     setView("done");
   }
-
-  // derived: total quantity for the badge
   const cartCount = cart.reduce((sum, line) => sum + line.qty, 0);
 
-  // ---- choose what to show ----
   let content;
   if (view === "cart") {
     content = (
