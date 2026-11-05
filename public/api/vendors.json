@@ -9,7 +9,7 @@
       {
         "id": "2418085-m1",
         "name": "Nasi Lemak Ayam",
-        "description": "The combination of Fried Chicken, Oriental Egg, Homemade Sambal and Aromatic Pandan Steamed Rice infused with 8 types of spices.",
+        "description": "The combination of Fried Chicken, Egg, Homemade Sambal and Aromatic Pandan Steamed Rice infused with 8 types of spices.",
         "price": 6,
         "category": "Rice",
         "available": true
@@ -17,10 +17,12 @@
       {
         "id": "2418085-m2",
         "name": "Kampung Fried Rice",
-        "description": "A delicious Serambi Barakah signature dish! Paired with fresh prawns and oriental egg.",
+        "description": "A delicious Serambi Barakah signature dish! Paired with fresh prawns and egg.",
         "price": 5,
         "category": "Rice",
-        "available": true
+        "available": true,
+        "special": true,
+        "specialEndsAt": "22:00"
       },
       {
         "id": "2418085-m3",
@@ -101,7 +103,9 @@
         "description": "Marinated chicken roasted with traditional tandoori spices",
         "price": 10.0,
         "available": true,
-        "category": "Chicken"
+        "category": "Chicken",
+        "special": true,
+        "specialEndsAt": "22:00"
       },
       {
         "id": "2411391-uthman-4",
@@ -158,9 +162,10 @@
         "description": "Fried rice wrapped in a fluffy omelette, served with savoury sauce.",
         "price": 5.5,
         "category": "Foods",
-        "available": true
+        "available": true,
+        "special": true,
+        "specialEndsAt": "22:30"
       },
-
       {
         "id": "2415975-NG02",
         "name": "Nasi Goreng Ayam",
@@ -169,7 +174,6 @@
         "category": "Foods",
         "available": true
       },
-
       {
         "id": "2415975-NG03",
         "name": "Nasi Goreng USA",
@@ -178,7 +182,6 @@
         "category": "Foods",
         "available": true
       },
-
       {
         "id": "2415975-MG01",
         "name": "Char Kuey Teow",
@@ -187,7 +190,6 @@
         "category": "Foods",
         "available": true
       },
-
       {
         "id": "2415975-MG02",
         "name": "Mee Goreng Mamak",
@@ -196,7 +198,6 @@
         "category": "Foods",
         "available": true
       },
-
       {
         "id": "2415975-BV01",
         "name": "Teh O Ais",
@@ -205,7 +206,6 @@
         "category": "Drinks",
         "available": true
       },
-
       {
         "id": "2415975-BV02",
         "name": "Teh Ais",
@@ -214,7 +214,6 @@
         "category": "Drinks",
         "available": true
       },
-
       {
         "id": "2415975-BV03",
         "name": "Green Tea",
@@ -223,7 +222,6 @@
         "category": "Drinks",
         "available": true
       },
-
       {
         "id": "2415975-AO01",
         "name": "Telur Mata",
@@ -232,7 +230,6 @@
         "category": "Add-On",
         "available": true
       },
-
       {
         "id": "2415975-AO02",
         "name": "Ayam Goreng",
@@ -241,7 +238,6 @@
         "category": "Add-On",
         "available": true
       },
-
       {
         "id": "2415975-AO03",
         "name": "Nuggets (3 pieces)",
@@ -250,7 +246,6 @@
         "category": "Add-On",
         "available": true
       },
-
       {
         "id": "2415975-AO04",
         "name": "Sausages (2 pieces)",
@@ -259,7 +254,6 @@
         "category": "Add-On",
         "available": true
       },
-
       {
         "id": "2415975-AO05",
         "name": "Potate Wedges (3 pieces)",

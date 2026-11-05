@@ -1,16 +1,19 @@
-# React + Vite
+# CampusEats - Serambi Barakah Restaurant (2418085)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite food-ordering app for IIUM Mahallah Cafes (BICS3301)
 
-Currently, two official plugins are available:
+## Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+npm install
+npm run dev
 
-## React Compiler
+## Vendors 2-3 from Classmates
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vendors 2 which is Selera Melayu is from 2415975
+Vendors 3 which is Kafe Mahallah Uthman is from 2411391
 
-## Expanding the ESLint configuration
+## My Personal Features: Daily Special with Countdown
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Matric No. ending with (5)
+
+My features use "SpecialBanner" (vendor page) and "TodaySpecials" (home page, each special links to its vendor) and both of these use the useCountdown hook.
